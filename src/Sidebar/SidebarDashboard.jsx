@@ -28,7 +28,7 @@ const Dashboard = () => {
           {items.map((item) => (
             <tr key={item.id}>
              <td><img src={item.id} alt=""  height={40} width={40}/></td>
-              <td>{item.channel}</td>
+              <td id="channel">{item.channel}</td>
               <td>{item.orderDate}</td>
               <td>{item.city}</td>
               <td>{item.customerName}</td>

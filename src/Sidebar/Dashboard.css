@@ -30,4 +30,7 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }  
+  } 
+  #channel{
+    color: #007bff;
+  } 
